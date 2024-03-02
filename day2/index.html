@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+       const h2 = React.createElement('h2', {}, "React Element")
+       const p = React.createElement('p', {}, "hfhfhdhfhgfhgfhgdfhghfgfhg")
+       const Div = React.createElement('div', {}, [h2, p])
+
+       ReactDOM.render(Div, document.getElementById('root'))
+    </script>
+
+</body>
+</html>
